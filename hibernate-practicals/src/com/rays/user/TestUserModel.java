@@ -8,21 +8,21 @@ public class TestUserModel {
 
 	public static void main(String[] args) {
 
-		// testAdd();
+		 testAdd();
 		// testUpdate();
 		// testDelete();
 		// testGet();
 		// testAuth();
-		testSearch();
+		//testSearch();
 
 	}
 
 	public static void testAdd() {
 
 		UserDTO dto = new UserDTO();
-		dto.setFirstName("Aniket");
-		dto.setLastName("Rajput");
-		dto.setLoginId("aniket@gmail.com");
+		dto.setFirstName("Akshat");
+		dto.setLastName("Saxena");
+		dto.setLoginId("akshat@gmail.com");
 		dto.setPassword("123");
 		dto.setDob(new Date());
 		dto.setAddress("Indore");
