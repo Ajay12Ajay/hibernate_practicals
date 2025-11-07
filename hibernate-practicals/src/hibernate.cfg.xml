@@ -28,7 +28,9 @@
 		<!-- <mapping resource="com\rays\oneone\Address.hbm.xml" /> <mapping resource="com\rays\oneone\Employee.hbm.xml" 
 			/> -->
 
-		<mapping resource="com\rays\inheritance\Payment.hbm.xml" />
+		<!-- <mapping resource="com\rays\inheritance\Payment.hbm.xml" /> -->
+		
+		<mapping resource="com\rays\subclass\Payment.hbm.xml"/>
 
 		<!-- <class-cache usage="read-only" class="com.rays.user.UserDTO" /> -->
 	</session-factory>
